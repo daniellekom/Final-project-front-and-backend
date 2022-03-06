@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: Montserrat;
+  font-weight: 400;
+  color: rgb(98, 85, 216);
+}
+
+.navbar {
+  color: orange;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #000000;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar h1 {
+  color: orange;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.content {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.content h1 {
+  color: orangered;
+  padding: 10px;
+  display: flex;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.content h2{
+  color: rgb(51, 41, 155);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+.content h4{
+  color: orangered;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+
+.login{
+  color: rgb(197, 105, 1);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  margin: 0 auto;
+
+}
+
+.create{
+  padding: 10px;
+  font-size: 18px;
+  max-width: 200px;
+  margin:  auto;
+
+}
+
+.container{
+background-color: rgb(230, 135, 46);
+padding: 10px;
+margin: 0 auto;
+max-width: 900px;
+}
+
+.button{
+background-color: white;
+border-radius:  30px;
+color: white;
+width: 200px;
+}
+
+.button a{
+text-decoration: none;
+padding-left: 30%;
+font-weight: bold;
+
+
+}
+
